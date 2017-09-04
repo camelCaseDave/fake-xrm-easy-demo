@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365.Client.Plugins", "D365.Client.Plugins\D365.Client.Plugins.csproj", "{01900D34-B265-4124-B9BE-902BD8D98431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365.Client.Workflows", "D365.Client.Workflows\D365.Client.Workflows.csproj", "{1DEABA72-C020-4E42-AC34-FF1CFCB119CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365.Client.Tests", "D365.Client.Tests\D365.Client.Tests.csproj", "{D2DD817E-B2A0-4883-BC34-2ECE83776B2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Function.API", "Company.Function.API\Company.Function.API.csproj", "{4091DFD5-3FB9-4233-B1B0-E4E864BCC56D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D92760B-84FE-4728-83EA-539832DE6945}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365.Client.Models", "D365.Client.Models\D365.Client.Models.csproj", "{80C46608-9DFB-410E-AE5B-2C81C3D7646E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01900D34-B265-4124-B9BE-902BD8D98431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01900D34-B265-4124-B9BE-902BD8D98431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01900D34-B265-4124-B9BE-902BD8D98431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01900D34-B265-4124-B9BE-902BD8D98431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DEABA72-C020-4E42-AC34-FF1CFCB119CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEABA72-C020-4E42-AC34-FF1CFCB119CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DEABA72-C020-4E42-AC34-FF1CFCB119CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DEABA72-C020-4E42-AC34-FF1CFCB119CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DD817E-B2A0-4883-BC34-2ECE83776B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DD817E-B2A0-4883-BC34-2ECE83776B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DD817E-B2A0-4883-BC34-2ECE83776B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DD817E-B2A0-4883-BC34-2ECE83776B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4091DFD5-3FB9-4233-B1B0-E4E864BCC56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4091DFD5-3FB9-4233-B1B0-E4E864BCC56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4091DFD5-3FB9-4233-B1B0-E4E864BCC56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4091DFD5-3FB9-4233-B1B0-E4E864BCC56D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C46608-9DFB-410E-AE5B-2C81C3D7646E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C46608-9DFB-410E-AE5B-2C81C3D7646E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C46608-9DFB-410E-AE5B-2C81C3D7646E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C46608-9DFB-410E-AE5B-2C81C3D7646E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
