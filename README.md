@@ -109,4 +109,13 @@ public void Outputs_4_For_Bristol()
 
 ### Example 2: Plugins and testing with an in-memory CRM database 
 
+### Dependencies
+Dependencies can be viewed in the individual project's `packages.config` file. They will be installed automatically when the solution is built. 
+
+This solution requires the following [nuget](https://www.nuget.org/) packages:
+- FakeItEasy
+- FakeXrmEasy
+- Microsoft.CrmSdk.CoreAssemblies
+- Microsoft.CrmSdk.Workflow
+
 
